@@ -1,14 +1,17 @@
 # SQL coursework: Data Architecture (SQLite)
 
-Cornell MSBA, BANA 6550 Data Architecture. 182 queries I wrote by hand in SQLiteStudio against eight course SQLite databases.
+Cornell MSBA, BANA 6550 Data Architecture. Every query here was **hand-written** by me in SQLiteStudio against eight course SQLite databases. None were generated.
 
 > **2025 coursework.** The queries are dated 24 May to 17 September 2025, most of them in June. This is not recent work, and it is published as I wrote it.
 
 ## What's here
 
-SQLiteStudio keeps a history of every query you run, and I iterated a lot: the same query edited ten times until it worked. This repository holds the final working version of each one, exported from that history, one file per database in `queries/`. Failed attempts and near-duplicates are dropped. Each query has the date I ran it.
+SQLiteStudio keeps a history of every query you run, and I iterated a lot: the same query edited ten times until it worked. Both views of that history are in this repository, exported straight from the app.
 
-| File | Database | Queries |
+- **`queries/`** has the final working version of each query I iterated on, 182 in all, one file per database. Failed attempts and near-duplicates are dropped. Each query has the date I ran it.
+- **`history/`** has everything: all 846 queries I ran (660 of them distinct), in the order I ran them, with the time and the number of rows each returned. It includes the failed attempts and repeats, so you can see how each query was built up.
+
+| File | Database | Final queries |
 |---|---|---|
 | `facex.sql` | FaceX: social-network profiles (`profiles`, `favoritemusic`, `favoritebooks`, `interests`, `relationshipstatus`, and others) | 114 |
 | `itunes.sql` | iTunes: the music store (`Album`, `Artist`, `Track`, `Customer`, `Invoice`, `InvoiceLine`, `Playlist`, and others) | 36 |
