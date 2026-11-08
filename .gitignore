@@ -1,0 +1,6 @@
+# Course databases are not redistributed here
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+.DS_Store
