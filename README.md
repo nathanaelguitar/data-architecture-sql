@@ -9,6 +9,7 @@ Cornell MSBA, BANA 6550 Data Architecture. Every query here was **hand-written**
 SQLiteStudio keeps a history of every query you run, and I iterated a lot: the same query edited ten times until it worked. Both views of that history are in this repository, exported straight from the app.
 
 - **`queries/`** has the final working version of each query I iterated on, 182 in all, one file per database. Failed attempts and near-duplicates are dropped. Each query has the date I ran it.
+- **`sheets/`** has the seven SQLiteStudio worksheets I saved (`sql-sheet-1.sql` to `sql-sheet-8.sql`; sheet 2 was empty), exported on 26 August 2025. They hold my queries with the comments I wrote beside them, such as the question each one answers.
 - **`history/`** has everything: all 846 queries I ran (660 of them distinct), in the order I ran them, with the time and the number of rows each returned. It includes the failed attempts and repeats, so you can see how each query was built up.
 
 | File | Database | Final queries |
